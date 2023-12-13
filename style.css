@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #84c7d0;
+  background-image: url(assets/D219563S_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
