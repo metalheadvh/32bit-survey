@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <title>ONLINE SURVEY</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>ONLINE SURVEY FORM 32BIT</h1>
+    </div>
+    <div class="form">
+      <form>
+        <div class="form-box">
+          <label for="name">NAME</label>
+          <input type="text" id="name" placeholder="Your Name" />
+        </div>
+        <div class="form-box">
+          <label for="email">EMAIL</label>
+          <input type="text" id="email" placeholder="Your Email" />
+        </div>
+        <div class="form-box">
+          <label for="age">AGE</label>
+          <input type="text" id="age" placeholder="Your Age" />
+        </div>
+        <div class="form-box">
+          <label for="where" id="label-where"> Where did you find us? </label>
+          <select name="where" id="where">
+            <option value="internet">Internet</option>
+            <option value="local-shop">Local Shop</option>
+            <option value="friends">Friends</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-box">
+          <label for="services" id="label-services">
+            How do you rate our services?
+          </label>
+          <label for="services-1">
+                <input type="radio"
+                       id="services-1"
+                       name="services">1 Star</input>
+            </label>
+            <label for="services-2">
+                <input type="radio"
+                       id="services-2"
+                       name="services">2 Stars</input>
+            </label>
+            <label for="services-3">
+                <input type="radio"
+                       id="services-3"
+                       name="services">3 Stars</input>
+            </label>
+            <label for="services-4">
+                <input type="radio"
+                       id="services-4"
+                       name="services">4 Stars</input>
+            </label>
+            <label for="services-5">
+                <input type="radio"
+                       id="services-5"
+                       name="services">5 Stars</input>
+            </label>
+        </div>
+        <div class="form-box">
+          <label for="recommend" id="label-recommend">
+            Do you recommend our services?
+          </label>
+          <label>
+                <input type="radio"
+                       id="recommend-1"
+                       name="recommend">Yes</input>
+            </label>
+            <label>
+                <input type="radio"
+                       id="recommend-2"
+                       name="recommend">No</input>
+            </label>
+        </div>
+
+        <div class="form-box">
+          <label>
+            Which service(s) have you bought?
+          </label>
+          <label>
+                <input type="checkbox"
+                       name="inp">Interior Detailing</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">Exterior Detailing</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">Complete Detailing</input></label>
+        </div>
+        <div class="form-box">
+          <label for="comment"> Any comments or suggestions </label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter your comment here"
+          >
+          </textarea>
+        </div>
+
+        <button class="form-box" type="submit" value="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
