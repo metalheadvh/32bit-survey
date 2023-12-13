@@ -13,26 +13,27 @@
     <title>ONLINE SURVEY</title>
   </head>
   <body>
-    <div class="title">
-      <h1>ONLINE SURVEY FORM 32BIT</h1>
-    </div>
+    
     <div class="form">
       <form>
+        <div class="title">
+      <h1>ONLINE SURVEY FORM 32BIT</h1>
+    </div>
         <div class="form-box">
           <label for="name">NAME</label>
-          <input type="text" id="name" placeholder="Your Name" />
+          <input type="text" id="name" placeholder="Your Name"  required/>
         </div>
         <div class="form-box">
           <label for="email">EMAIL</label>
-          <input type="text" id="email" placeholder="Your Email" />
+          <input type="text" id="email" placeholder="Your Email" required/>
         </div>
         <div class="form-box">
           <label for="age">AGE</label>
           <input type="text" id="age" placeholder="Your Age" />
         </div>
         <div class="form-box">
-          <label for="where" id="label-where"> Where did you find us? </label>
-          <select name="where" id="where">
+          <label for="how" id="label-how"> How did you find us? </label>
+          <select name="how" id="how">
             <option value="internet">Internet</option>
             <option value="local-shop">Local Shop</option>
             <option value="friends">Friends</option>
@@ -40,8 +41,31 @@
           </select>
         </div>
         <div class="form-box">
+          <label>
+            Choose Platform
+          </label>
+          <label>
+                <input type="checkbox"
+                       name="inp">XBOX</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">PLAYSTATION</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">NINTENDO</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">PC</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">STEAM DECK</input></label>
+          <label>
+                <input type="checkbox"
+                       name="inp">ASUS ROG ALLY</input></label>
+        </div>
+        <div class="form-box">
           <label for="services" id="label-services">
-            How do you rate our services?
+              Rate our services
           </label>
           <label for="services-1">
                 <input type="radio"
@@ -85,19 +109,21 @@
             </label>
         </div>
 
+        
         <div class="form-box">
           <label>
-            Which service(s) have you bought?
+            Which item(s) have you bought?
           </label>
           <label>
                 <input type="checkbox"
-                       name="inp">Interior Detailing</input></label>
+                       name="inp">CONSOLE</input></label>
           <label>
                 <input type="checkbox"
-                       name="inp">Exterior Detailing</input></label>
+                       name="inp">GAMES</input></label>
           <label>
                 <input type="checkbox"
-                       name="inp">Complete Detailing</input></label>
+                       name="inp">ACCESSORIES</input></label>
+          
         </div>
         <div class="form-box">
           <label for="comment"> Any comments or suggestions </label>
@@ -105,6 +131,7 @@
             name="comment"
             id="comment"
             placeholder="Enter your comment here"
+            required
           >
           </textarea>
         </div>
