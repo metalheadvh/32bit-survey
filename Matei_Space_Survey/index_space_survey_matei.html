@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_space_survey_matei.css">
+    <title>Space Survey Matei</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Lines&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>Space Survey</h1>
+    
+    <!-- Create Form -->
+    <form id="form">
+    
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+    
+            <!-- Input Type Text -->
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+    
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+    
+            <!-- Input Type Email-->
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+    
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+    
+            <!-- Input Type Text -->
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+    
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which space-related topic interests you the most?
+            </label>
+    
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Planets">Planets</option>
+                <option value="Stars">Stars</option>
+                <option value="Astronomy Discoveries">
+                    Astronomy Discoveries
+                </option>
+                <option value="Extraterrestrial life (aliens)">Extraterrestrial life (aliens)</option>
+                <option value="Space Exploration Missions">Space Exploration Missions</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+    
+        <div class="form-control" id="form-btn">
+            <label>
+                Do you believe in the existence of extraterrestrial life or aliens?
+            </label>
+    
+            <!-- Input Type Radio Button -->
+            <div class="box-input">
+                <label for="recommed-1">
+                    <input type="radio" id="recommed-1" name="recommed">Yes</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio" id="recommed-2" name="recommed">No</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio" id="recommed-3" name="recommed">Maybe</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio" id="recommed-3" name="recommed">Maybe not</input>
+                </label>
+            </div>
+
+
+        </div>
+    
+        <div class="form-control" id="form-btn">
+            <label>If you could travel to any planet in our solar system, which one would you most like to visit?
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <div class="box-input">
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">Mercury</input></label>
+                <label for="inp-2">
+                    <input type="checkbox" name="inp">Venus</input></label>
+                <label for="inp-3">
+                    <input type="checkbox" name="inp">Mars</input></label>
+                <label for="inp-4">
+                    <input type="checkbox" name="inp">Jupiter</input></label>
+                <label for="inp-5">
+                    <input type="checkbox" name="inp">Saturn</input></label>
+                <label for="inp-6">
+                    <input type="checkbox" name="inp">Uranus</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Neptune</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Pluto</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Exoplanet</input></label>
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">Earth</input></label>
+            </div>
+        </div>
+    
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+    
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                </textarea>
+        </div>
+    
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+
+    
+    
+</body>
+</html>

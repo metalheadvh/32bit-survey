@@ -1,0 +1,103 @@
+ 
+
+
+ /* Styling the Body element i.e. Color, 
+        Font, Alignment */
+ body {
+     background-image: url(assets_space_survey_matei/facuta_cu_crop_p1.gif);
+     /* background-position: center top; */
+     font-family: "Rubik Lines";
+     text-align: center;
+ }
+
+ /* .background-image {
+    height: 100px;
+ }
+
+  */
+
+
+  h1 {
+    font-size: 40px;
+    color: #18b3fc;
+  }
+
+ /* Styling the Form (Color, Padding, Shadow) */
+ form {
+     background-color: #250070;
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 30px 20px;
+     box-shadow: 2px 5px 10px #18b3fc;
+ }
+
+ /* Styling form-control Class */
+ .form-control {
+     text-align: left;
+     margin-bottom: 25px;
+ }
+
+ /* Styling form-control Label */
+ .form-control label {
+     display: block;
+     margin-bottom: 4px;
+     margin-left: 15px;
+     color: #18b3fc;
+ }
+
+ /* Styling form-control input, 
+        select, textarea */
+ .form-control input,
+ .form-control select,
+ .form-control textarea {
+     border: 5px solid #18b3fc;
+     background-color: #05c46b5f;
+     border-radius: 60px;
+     font-family: inherit;
+     padding: 10px;
+     display: block;
+     width: 95%;
+ }
+
+ .box-input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .box-input label {
+    width: 45%;
+ }
+
+ 
+
+ 
+ .form-control select {
+    width: 100%
+ }
+
+
+ /* Styling form-control Radio 
+        button and Checkbox */
+ .form-control input[type="radio"],
+ .form-control input[type="checkbox"] {
+     display: inline-block;
+     width: auto;
+ }
+
+ /* Styling Button */
+ button {
+     background-color: #05c46b;
+     border: 1px solid #18b3fc;
+     border-radius: 60px;
+     font-family: inherit;
+     font-size: 21px;
+     /* display: flex; */
+     text-align: center;
+     width: 30%;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     height: 40px;
+ }
+
